@@ -3,12 +3,19 @@
 </p>
 
 # EtherClick
-MacOS MenuBar app to quickly view ethereum addresses in blockchain explorers
+macOS MenuBar app for quick Ethereum-related operations on clipboard content
+
+## Available Operations
+ - Etherscan: Open an address in [Etherscan](https://etherscan.io/)
+ - keccak256: Get the keccak256 hash of the clipboard's content
 
 ## Examples
 The app is running as a menu bar icon:
 
 ![Menu Bar](./images/menu.png)
+
+Getting a hash:
+![keccak256](./images/hash.png)
 
 If the clipboard does not contain an address (currently only verifies `clipboard[:2] == '0x'`) the app will send a notification:
 

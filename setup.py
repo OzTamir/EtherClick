@@ -5,7 +5,7 @@ OPTIONS = {
     'argv_emulation': True,
     'iconfile': 'ether.icns',
     'plist': {
-        'CFBundleShortVersionString': '1.0.0',
+        'CFBundleShortVersionString': '1.1.0',
         'LSUIElement': True,
     },
     'packages': ['rumps', 'xerox'],
@@ -15,5 +15,5 @@ setup(
     name='EtherClick',
     data_files=DATA_FILES,
     options={'py2app': OPTIONS},
-    setup_requires=['py2app'], install_requires=['rumps', 'xerox']
+    setup_requires=['py2app'], install_requires=['rumps', 'xerox', 'pysha3']
 )
