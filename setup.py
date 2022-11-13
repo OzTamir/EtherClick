@@ -5,7 +5,7 @@ OPTIONS = {
     'argv_emulation': True,
     'iconfile': 'ether.icns',
     'plist': {
-        'CFBundleShortVersionString': '0.2.0',
+        'CFBundleShortVersionString': '1.0.0',
         'LSUIElement': True,
     },
     'packages': ['rumps', 'xerox'],
