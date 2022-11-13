@@ -1,4 +1,6 @@
-![EtherClick](./images/icon.png)
+<p align="center">
+  <img src="./images/icon.png">
+</p>
 
 # EtherClick
 MacOS MenuBar app to quickly view ethereum addresses in blockchain explorers
