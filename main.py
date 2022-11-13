@@ -15,4 +15,4 @@ class EtherClick(rumps.App):
         webbrowser.get(CHROME_PATH).open_new_tab(url)
 
 if __name__ == "__main__":
-    EtherClick("EtherClick").run()
+    EtherClick("Ξ").run()
